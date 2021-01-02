@@ -1,0 +1,127 @@
+<html>
+  <head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="contactus.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      #main {
+        position: relative;
+        left: -720px;
+      }
+      #logo {
+        position: relative;
+        top: 5px;
+      }
+      #logo_top_bar {
+        background-color: white;
+        height: 62px;
+        width: 1800px;
+        margin-top: -10px;
+        margin-left: -7px;
+      }
+      #top_bar {
+        position: relative;
+        left: 730px;
+        bottom: 40px;
+      }
+      nav {
+        width: 100%;
+        overflow: auto;
+      }
+      ul {
+        padding: 0;
+        margin: 0 0 0 150px;
+        list-style: none;
+      }
+      li {
+        float: left;
+      }
+      nav a {
+        width: 100px;
+        display: block;
+        padding: 20px 15px;
+        text-decoration: none;
+        font-family: sans-serif;
+        color: #f2f2f2;
+        text-align: center;
+      }
+
+      #logo_img {
+        position: relative;
+        bottom: 1px;
+        right: 782px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="logo_top_bar">
+      <div id="logo">
+        <img src="logo1.jpg" alt="My image" id="logo_img" />
+      </div>
+      <div id="top_bar">
+        <nav>
+          <ul>
+            <li>
+              <a href="index.html"><span style="color: black;">Home</span></a>
+            </li>
+            <li>
+              <a href="aboutus.html"
+                ><span style="color: black;">About Us</span></a
+              >
+            </li>
+            <li>
+              <a href="movies.html"
+                ><span style="color: black;">Movies</span></a
+              >
+            </li>
+            <li>
+              <a href="signup.html"
+                ><span style="color: black;">Registor</span></a
+              >
+            </li>
+            <li>
+              <a href="contactus.html"
+                ><span style="color: black;">Contact Us</span></a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="contact-title">
+      <h1>We Appreciate Your Feedback!</h1>
+    </div>
+    <div class="contact-form">
+      <form>
+        <input
+          name="name"
+          type="text"
+          class="form-control"
+          placeholder="Your Name"
+          required
+          autocomplete="off"
+        /><br />
+
+        <textarea
+          name="message"
+          class="form-control"
+          placeholder="Message"
+          rows="4"
+          required
+          autocomplete="off"
+        ></textarea
+        ><br />
+
+        <input
+          type="submit"
+          class="form-control submit"
+          value="SEND MESSAGE"
+          autocomplete="off"
+        /><br />
+      </form>
+    </div>
+  </body>
+</html>

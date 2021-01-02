@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: url("");
+  background-size: cover;
+  background-position: absolute;
+  overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
+}
+#main {
+  position: relative;
+  left: -720px;
+}
+#logo {
+  position: relative;
+  top: 5px;
+}
+#logo_top_bar {
+  background-color: white;
+  height: 62px;
+  width: 1800px;
+  margin-top: -10px;
+  margin-left: -7px;
+}
+#top_bar {
+  position: relative;
+  left: 730px;
+  bottom: 40px;
+}
+nav {
+  width: 100%;
+  overflow: auto;
+}
+ul {
+  padding: 0;
+  margin: 0 0 0 150px;
+  list-style: none;
+}
+li {
+  float: left;
+}
+nav a {
+  width: 100px;
+  display: block;
+  padding: 20px 15px;
+  text-decoration: none;
+  font-family: sans-serif;
+  color: #f2f2f2;
+  text-align: center;
+}
+
+#logo_img {
+  position: relative;
+  bottom: 1px;
+  right: 782px;
+}
+a {
+  text-decoration: none;
+}
+
+.post {
+  margin: 0rem 3rem;
+  margin-bottom: 0;
+  margin-left: 0;
+  border: 3px solid #0a97b0;
+}
+
+.postimg {
+  margin: 0.7rem;
+  width: 20rem;
+  height: 405px;
+}
+
+.hcontainer {
+  display: flex;
+
+  border: 3px solid #fc9d9d;
+  width: 1400px;
+  padding: 1rem;
+  top: 60px;
+  left: 47px;
+  position: relative;
+}
+
+.vcontainer {
+  margin-top: 10rem;
+}
+
+.crating {
+  background-color: #f6cd61;
+  position: relative;
+  bottom: 50px;
+  height: 100px;
+  left: 70px;
+}
+
+.urating {
+  background-color: #f6cd61;
+  position: relative;
+  height: 100px;
+  left: 70px;
+  width: 200px;
+}
+.checked {
+  color: orangered;
+  position: relative;
+}
+#stars {
+  position: relative;
+  top: 25px;
+}
+
+.review {
+  background-color: #0a97b0;
+  width: 922px;
+  height: 460px;
+  position: relative;
+  top: 90px;
+  left: 47px;
+}
+.cast {
+  background-color: #fc9d9d;
+  width: 500px;
+  height: 460px;
+  position: relative;
+  bottom: 388px;
+  left: 980px;
+}
+h3 {
+  position: relative;
+  top: 15px;
+  font-size: large;
+  text-decoration: underline;
+}
+#trailer {
+  position: absolute;
+  visibility: visible;
+  left: 57%;
+  top: 148px;
+  z-index: 200;
+}
+#heading {
+  position: relative;
+  bottom: 400px;
+  right: 8%;
+  font-size: larger;
+}

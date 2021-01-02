@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: url("m6.jpg");
+  background-size: cover;
+  background-position: absolute;
+  overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
+}
+.contact-title {
+  margin-top: 100px;
+  color: #fff;
+}
+
+.contact-title h1 {
+  position: relative;
+  top: 70px;
+  font-size: 42px;
+  line-height: 10px;
+}
+
+.contact-title h3 {
+  position: relative;
+  text-align: left;
+  top: 110px;
+  font-size: 29px;
+}

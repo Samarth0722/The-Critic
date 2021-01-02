@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: url(m4.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow-x: hidden;
+  font-family: "Josefin Sans", sans-serif;
+}
+.contact-title {
+  margin-top: 70px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+}
+.icon {
+  position: relative;
+  bottom: 82px;
+  left: 415px;
+}
+.contact-title h1 {
+  font-size: 35px;
+  line-height: 10px;
+}
+
+.contact-title h2 {
+  font-size: 35px;
+}
